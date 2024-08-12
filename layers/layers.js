@@ -10,7 +10,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
+    attributions: ' &middot; <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map Google Satellite</a>',
                 url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}'
             })
         });
@@ -143,7 +143,7 @@ var lyr_GUAMINERALALCBICGUAMINERALALC_9 = new ol.layer.Vector({
                 source:jsonSource_GUAMINERALALCBICGUAMINERALALC_9, 
                 style: style_GUAMINERALALCBICGUAMINERALALC_9,
                 popuplayertitle: "ÁGUA MINERAL ALC. BIC — ÁGUA MINERAL ALC",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GUAMINERALALCBICGUAMINERALALC_9.png" /> ÁGUA MINERAL ALC. BIC — ÁGUA MINERAL ALC'
             });
 var format_GUAMINERALCARBOGAS_10 = new ol.format.GeoJSON();
@@ -158,7 +158,7 @@ var lyr_GUAMINERALCARBOGAS_10 = new ol.layer.Vector({
                 source:jsonSource_GUAMINERALCARBOGAS_10, 
                 style: style_GUAMINERALCARBOGAS_10,
                 popuplayertitle: "ÁGUA MINERAL CARBOGAS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GUAMINERALCARBOGAS_10.png" /> ÁGUA MINERAL CARBOGAS'
             });
 var format_GUAMINERAL_11 = new ol.format.GeoJSON();
@@ -173,7 +173,7 @@ var lyr_GUAMINERAL_11 = new ol.layer.Vector({
                 source:jsonSource_GUAMINERAL_11, 
                 style: style_GUAMINERAL_11,
                 popuplayertitle: "ÁGUA MINERAL",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GUAMINERAL_11.png" /> ÁGUA MINERAL'
             });
 var format_GUAPOTVELDEMESA_12 = new ol.format.GeoJSON();
@@ -188,7 +188,7 @@ var lyr_GUAPOTVELDEMESA_12 = new ol.layer.Vector({
                 source:jsonSource_GUAPOTVELDEMESA_12, 
                 style: style_GUAPOTVELDEMESA_12,
                 popuplayertitle: "ÁGUA POTÁVEL DE MESA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GUAPOTVELDEMESA_12.png" /> ÁGUA POTÁVEL DE MESA'
             });
 var format_AMETISTA_13 = new ol.format.GeoJSON();
@@ -203,7 +203,7 @@ var lyr_AMETISTA_13 = new ol.layer.Vector({
                 source:jsonSource_AMETISTA_13, 
                 style: style_AMETISTA_13,
                 popuplayertitle: "AMETISTA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/AMETISTA_13.png" /> AMETISTA'
             });
 var format_ANFIBOLITO_14 = new ol.format.GeoJSON();
@@ -218,7 +218,7 @@ var lyr_ANFIBOLITO_14 = new ol.layer.Vector({
                 source:jsonSource_ANFIBOLITO_14, 
                 style: style_ANFIBOLITO_14,
                 popuplayertitle: "ANFIBOLITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ANFIBOLITO_14.png" /> ANFIBOLITO'
             });
 var format_ARDSIA_15 = new ol.format.GeoJSON();
@@ -233,7 +233,7 @@ var lyr_ARDSIA_15 = new ol.layer.Vector({
                 source:jsonSource_ARDSIA_15, 
                 style: style_ARDSIA_15,
                 popuplayertitle: "ARDÓSIA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ARDSIA_15.png" /> ARDÓSIA'
             });
 var format_AREIA_16 = new ol.format.GeoJSON();
@@ -248,7 +248,7 @@ var lyr_AREIA_16 = new ol.layer.Vector({
                 source:jsonSource_AREIA_16, 
                 style: style_AREIA_16,
                 popuplayertitle: "AREIA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/AREIA_16.png" /> AREIA'
             });
 var format_ARENITO_17 = new ol.format.GeoJSON();
@@ -263,7 +263,7 @@ var lyr_ARENITO_17 = new ol.layer.Vector({
                 source:jsonSource_ARENITO_17, 
                 style: style_ARENITO_17,
                 popuplayertitle: "ARENITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ARENITO_17.png" /> ARENITO'
             });
 var format_ARGILAREFRATRIA_18 = new ol.format.GeoJSON();
@@ -278,7 +278,7 @@ var lyr_ARGILAREFRATRIA_18 = new ol.layer.Vector({
                 source:jsonSource_ARGILAREFRATRIA_18, 
                 style: style_ARGILAREFRATRIA_18,
                 popuplayertitle: "ARGILA REFRATÁRIA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ARGILAREFRATRIA_18.png" /> ARGILA REFRATÁRIA'
             });
 var format_ARGILA_19 = new ol.format.GeoJSON();
@@ -293,7 +293,7 @@ var lyr_ARGILA_19 = new ol.layer.Vector({
                 source:jsonSource_ARGILA_19, 
                 style: style_ARGILA_19,
                 popuplayertitle: "ARGILA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ARGILA_19.png" /> ARGILA'
             });
 var format_ARGILITO_20 = new ol.format.GeoJSON();
@@ -308,7 +308,7 @@ var lyr_ARGILITO_20 = new ol.layer.Vector({
                 source:jsonSource_ARGILITO_20, 
                 style: style_ARGILITO_20,
                 popuplayertitle: "ARGILITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ARGILITO_20.png" /> ARGILITO'
             });
 var format_ATAPULGITA_21 = new ol.format.GeoJSON();
@@ -323,7 +323,7 @@ var lyr_ATAPULGITA_21 = new ol.layer.Vector({
                 source:jsonSource_ATAPULGITA_21, 
                 style: style_ATAPULGITA_21,
                 popuplayertitle: "ATAPULGITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ATAPULGITA_21.png" /> ATAPULGITA'
             });
 var format_BASALTO_22 = new ol.format.GeoJSON();
@@ -338,7 +338,7 @@ var lyr_BASALTO_22 = new ol.layer.Vector({
                 source:jsonSource_BASALTO_22, 
                 style: style_BASALTO_22,
                 popuplayertitle: "BASALTO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/BASALTO_22.png" /> BASALTO'
             });
 var format_CALCRIOCALCTICO_23 = new ol.format.GeoJSON();
@@ -353,7 +353,7 @@ var lyr_CALCRIOCALCTICO_23 = new ol.layer.Vector({
                 source:jsonSource_CALCRIOCALCTICO_23, 
                 style: style_CALCRIOCALCTICO_23,
                 popuplayertitle: "CALCÁRIO CALCÍTICO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CALCRIOCALCTICO_23.png" /> CALCÁRIO CALCÍTICO'
             });
 var format_CALCRIODOLOMTICO_24 = new ol.format.GeoJSON();
@@ -368,7 +368,7 @@ var lyr_CALCRIODOLOMTICO_24 = new ol.layer.Vector({
                 source:jsonSource_CALCRIODOLOMTICO_24, 
                 style: style_CALCRIODOLOMTICO_24,
                 popuplayertitle: "CALCÁRIO DOLOMÍTICO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CALCRIODOLOMTICO_24.png" /> CALCÁRIO DOLOMÍTICO'
             });
 var format_CALCRIO_25 = new ol.format.GeoJSON();
@@ -383,7 +383,7 @@ var lyr_CALCRIO_25 = new ol.layer.Vector({
                 source:jsonSource_CALCRIO_25, 
                 style: style_CALCRIO_25,
                 popuplayertitle: "CALCÁRIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CALCRIO_25.png" /> CALCÁRIO'
             });
 var format_CALCEDNIA_26 = new ol.format.GeoJSON();
@@ -398,7 +398,7 @@ var lyr_CALCEDNIA_26 = new ol.layer.Vector({
                 source:jsonSource_CALCEDNIA_26, 
                 style: style_CALCEDNIA_26,
                 popuplayertitle: "CALCEDÔNIA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CALCEDNIA_26.png" /> CALCEDÔNIA'
             });
 var format_CARVOMINERAL_27 = new ol.format.GeoJSON();
@@ -413,7 +413,7 @@ var lyr_CARVOMINERAL_27 = new ol.layer.Vector({
                 source:jsonSource_CARVOMINERAL_27, 
                 style: style_CARVOMINERAL_27,
                 popuplayertitle: "CARVÃO MINERAL",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CARVOMINERAL_27.png" /> CARVÃO MINERAL'
             });
 var format_CASCALHO_28 = new ol.format.GeoJSON();
@@ -428,7 +428,7 @@ var lyr_CASCALHO_28 = new ol.layer.Vector({
                 source:jsonSource_CASCALHO_28, 
                 style: style_CASCALHO_28,
                 popuplayertitle: "CASCALHO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CASCALHO_28.png" /> CASCALHO'
             });
 var format_CASSITERITA_29 = new ol.format.GeoJSON();
@@ -443,7 +443,7 @@ var lyr_CASSITERITA_29 = new ol.layer.Vector({
                 source:jsonSource_CASSITERITA_29, 
                 style: style_CASSITERITA_29,
                 popuplayertitle: "CASSITERITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CASSITERITA_29.png" /> CASSITERITA'
             });
 var format_CAULIM_30 = new ol.format.GeoJSON();
@@ -458,7 +458,7 @@ var lyr_CAULIM_30 = new ol.layer.Vector({
                 source:jsonSource_CAULIM_30, 
                 style: style_CAULIM_30,
                 popuplayertitle: "CAULIM",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CAULIM_30.png" /> CAULIM'
             });
 var format_COBRE_31 = new ol.format.GeoJSON();
@@ -473,7 +473,7 @@ var lyr_COBRE_31 = new ol.layer.Vector({
                 source:jsonSource_COBRE_31, 
                 style: style_COBRE_31,
                 popuplayertitle: "COBRE",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/COBRE_31.png" /> COBRE'
             });
 var format_COLUMBITA_32 = new ol.format.GeoJSON();
@@ -488,7 +488,7 @@ var lyr_COLUMBITA_32 = new ol.layer.Vector({
                 source:jsonSource_COLUMBITA_32, 
                 style: style_COLUMBITA_32,
                 popuplayertitle: "COLUMBITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/COLUMBITA_32.png" /> COLUMBITA'
             });
 var format_CONCHASCALCRIAS_33 = new ol.format.GeoJSON();
@@ -503,7 +503,7 @@ var lyr_CONCHASCALCRIAS_33 = new ol.layer.Vector({
                 source:jsonSource_CONCHASCALCRIAS_33, 
                 style: style_CONCHASCALCRIAS_33,
                 popuplayertitle: "CONCHAS CALCÁRIAS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CONCHASCALCRIAS_33.png" /> CONCHAS CALCÁRIAS'
             });
 var format_CONGLOMERADO_34 = new ol.format.GeoJSON();
@@ -518,7 +518,7 @@ var lyr_CONGLOMERADO_34 = new ol.layer.Vector({
                 source:jsonSource_CONGLOMERADO_34, 
                 style: style_CONGLOMERADO_34,
                 popuplayertitle: "CONGLOMERADO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CONGLOMERADO_34.png" /> CONGLOMERADO'
             });
 var format_CROMITA_35 = new ol.format.GeoJSON();
@@ -533,7 +533,7 @@ var lyr_CROMITA_35 = new ol.layer.Vector({
                 source:jsonSource_CROMITA_35, 
                 style: style_CROMITA_35,
                 popuplayertitle: "CROMITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/CROMITA_35.png" /> CROMITA'
             });
 var format_DADONOCADASTRADO_36 = new ol.format.GeoJSON();
@@ -548,7 +548,7 @@ var lyr_DADONOCADASTRADO_36 = new ol.layer.Vector({
                 source:jsonSource_DADONOCADASTRADO_36, 
                 style: style_DADONOCADASTRADO_36,
                 popuplayertitle: "DADO NÃO CADASTRADO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/DADONOCADASTRADO_36.png" /> DADO NÃO CADASTRADO'
             });
 var format_DIABSIO_37 = new ol.format.GeoJSON();
@@ -563,7 +563,7 @@ var lyr_DIABSIO_37 = new ol.layer.Vector({
                 source:jsonSource_DIABSIO_37, 
                 style: style_DIABSIO_37,
                 popuplayertitle: "DIABÁSIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/DIABSIO_37.png" /> DIABÁSIO'
             });
 var format_DIAMANTEINDUSTRIAL_38 = new ol.format.GeoJSON();
@@ -578,7 +578,7 @@ var lyr_DIAMANTEINDUSTRIAL_38 = new ol.layer.Vector({
                 source:jsonSource_DIAMANTEINDUSTRIAL_38, 
                 style: style_DIAMANTEINDUSTRIAL_38,
                 popuplayertitle: "DIAMANTE INDUSTRIAL",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/DIAMANTEINDUSTRIAL_38.png" /> DIAMANTE INDUSTRIAL'
             });
 var format_DIAMANTE_39 = new ol.format.GeoJSON();
@@ -593,7 +593,7 @@ var lyr_DIAMANTE_39 = new ol.layer.Vector({
                 source:jsonSource_DIAMANTE_39, 
                 style: style_DIAMANTE_39,
                 popuplayertitle: "DIAMANTE",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/DIAMANTE_39.png" /> DIAMANTE'
             });
 var format_FOSFATO_40 = new ol.format.GeoJSON();
@@ -608,7 +608,7 @@ var lyr_FOSFATO_40 = new ol.layer.Vector({
                 source:jsonSource_FOSFATO_40, 
                 style: style_FOSFATO_40,
                 popuplayertitle: "FOSFATO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FOSFATO_40.png" /> FOSFATO'
             });
 var format_GALENA_41 = new ol.format.GeoJSON();
@@ -623,7 +623,7 @@ var lyr_GALENA_41 = new ol.layer.Vector({
                 source:jsonSource_GALENA_41, 
                 style: style_GALENA_41,
                 popuplayertitle: "GALENA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GALENA_41.png" /> GALENA'
             });
 var format_GEMA_42 = new ol.format.GeoJSON();
@@ -638,7 +638,7 @@ var lyr_GEMA_42 = new ol.layer.Vector({
                 source:jsonSource_GEMA_42, 
                 style: style_GEMA_42,
                 popuplayertitle: "GEMA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GEMA_42.png" /> GEMA'
             });
 var format_GIPSITA_43 = new ol.format.GeoJSON();
@@ -653,7 +653,7 @@ var lyr_GIPSITA_43 = new ol.layer.Vector({
                 source:jsonSource_GIPSITA_43, 
                 style: style_GIPSITA_43,
                 popuplayertitle: "GIPSITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GIPSITA_43.png" /> GIPSITA'
             });
 var format_GNAISSE_44 = new ol.format.GeoJSON();
@@ -668,7 +668,7 @@ var lyr_GNAISSE_44 = new ol.layer.Vector({
                 source:jsonSource_GNAISSE_44, 
                 style: style_GNAISSE_44,
                 popuplayertitle: "GNAISSE",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GNAISSE_44.png" /> GNAISSE'
             });
 var format_GRAFITA_45 = new ol.format.GeoJSON();
@@ -683,7 +683,7 @@ var lyr_GRAFITA_45 = new ol.layer.Vector({
                 source:jsonSource_GRAFITA_45, 
                 style: style_GRAFITA_45,
                 popuplayertitle: "GRAFITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GRAFITA_45.png" /> GRAFITA'
             });
 var format_GRANITO_46 = new ol.format.GeoJSON();
@@ -698,7 +698,7 @@ var lyr_GRANITO_46 = new ol.layer.Vector({
                 source:jsonSource_GRANITO_46, 
                 style: style_GRANITO_46,
                 popuplayertitle: "GRANITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GRANITO_46.png" /> GRANITO'
             });
 var format_GRANULITO_47 = new ol.format.GeoJSON();
@@ -713,7 +713,7 @@ var lyr_GRANULITO_47 = new ol.layer.Vector({
                 source:jsonSource_GRANULITO_47, 
                 style: style_GRANULITO_47,
                 popuplayertitle: "GRANULITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/GRANULITO_47.png" /> GRANULITO'
             });
 var format_ILMENITA_48 = new ol.format.GeoJSON();
@@ -728,7 +728,7 @@ var lyr_ILMENITA_48 = new ol.layer.Vector({
                 source:jsonSource_ILMENITA_48, 
                 style: style_ILMENITA_48,
                 popuplayertitle: "ILMENITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ILMENITA_48.png" /> ILMENITA'
             });
 var format_LATERITA_49 = new ol.format.GeoJSON();
@@ -743,7 +743,7 @@ var lyr_LATERITA_49 = new ol.layer.Vector({
                 source:jsonSource_LATERITA_49, 
                 style: style_LATERITA_49,
                 popuplayertitle: "LATERITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/LATERITA_49.png" /> LATERITA'
             });
 var format_MAGNESITA_50 = new ol.format.GeoJSON();
@@ -758,7 +758,7 @@ var lyr_MAGNESITA_50 = new ol.layer.Vector({
                 source:jsonSource_MAGNESITA_50, 
                 style: style_MAGNESITA_50,
                 popuplayertitle: "MAGNESITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MAGNESITA_50.png" /> MAGNESITA'
             });
 var format_MANGANS_51 = new ol.format.GeoJSON();
@@ -773,7 +773,7 @@ var lyr_MANGANS_51 = new ol.layer.Vector({
                 source:jsonSource_MANGANS_51, 
                 style: style_MANGANS_51,
                 popuplayertitle: "MANGANÊS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MANGANS_51.png" /> MANGANÊS'
             });
 var format_MRMORE_52 = new ol.format.GeoJSON();
@@ -788,7 +788,7 @@ var lyr_MRMORE_52 = new ol.layer.Vector({
                 source:jsonSource_MRMORE_52, 
                 style: style_MRMORE_52,
                 popuplayertitle: "MÁRMORE",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MRMORE_52.png" /> MÁRMORE'
             });
 var format_MINRIODEALUMNIO_53 = new ol.format.GeoJSON();
@@ -803,7 +803,7 @@ var lyr_MINRIODEALUMNIO_53 = new ol.layer.Vector({
                 source:jsonSource_MINRIODEALUMNIO_53, 
                 style: style_MINRIODEALUMNIO_53,
                 popuplayertitle: "MINÉRIO DE ALUMÍNIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODEALUMNIO_53.png" /> MINÉRIO DE ALUMÍNIO'
             });
 var format_MINRIODECOBRE_54 = new ol.format.GeoJSON();
@@ -818,7 +818,7 @@ var lyr_MINRIODECOBRE_54 = new ol.layer.Vector({
                 source:jsonSource_MINRIODECOBRE_54, 
                 style: style_MINRIODECOBRE_54,
                 popuplayertitle: "MINÉRIO DE COBRE",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODECOBRE_54.png" /> MINÉRIO DE COBRE'
             });
 var format_MINRIODECROMO_55 = new ol.format.GeoJSON();
@@ -833,7 +833,7 @@ var lyr_MINRIODECROMO_55 = new ol.layer.Vector({
                 source:jsonSource_MINRIODECROMO_55, 
                 style: style_MINRIODECROMO_55,
                 popuplayertitle: "MINÉRIO DE CROMO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODECROMO_55.png" /> MINÉRIO DE CROMO'
             });
 var format_MINRIODEFERRO_56 = new ol.format.GeoJSON();
@@ -848,7 +848,7 @@ var lyr_MINRIODEFERRO_56 = new ol.layer.Vector({
                 source:jsonSource_MINRIODEFERRO_56, 
                 style: style_MINRIODEFERRO_56,
                 popuplayertitle: "MINÉRIO DE FERRO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODEFERRO_56.png" /> MINÉRIO DE FERRO'
             });
 var format_MINRIODELTIO_57 = new ol.format.GeoJSON();
@@ -863,7 +863,7 @@ var lyr_MINRIODELTIO_57 = new ol.layer.Vector({
                 source:jsonSource_MINRIODELTIO_57, 
                 style: style_MINRIODELTIO_57,
                 popuplayertitle: "MINÉRIO DE LÍTIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODELTIO_57.png" /> MINÉRIO DE LÍTIO'
             });
 var format_MINRIODEMAGNSIO_58 = new ol.format.GeoJSON();
@@ -878,7 +878,7 @@ var lyr_MINRIODEMAGNSIO_58 = new ol.layer.Vector({
                 source:jsonSource_MINRIODEMAGNSIO_58, 
                 style: style_MINRIODEMAGNSIO_58,
                 popuplayertitle: "MINÉRIO DE MAGNÉSIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODEMAGNSIO_58.png" /> MINÉRIO DE MAGNÉSIO'
             });
 var format_MINRIODEMANGANS_59 = new ol.format.GeoJSON();
@@ -893,7 +893,7 @@ var lyr_MINRIODEMANGANS_59 = new ol.layer.Vector({
                 source:jsonSource_MINRIODEMANGANS_59, 
                 style: style_MINRIODEMANGANS_59,
                 popuplayertitle: "MINÉRIO DE MANGANÊS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODEMANGANS_59.png" /> MINÉRIO DE MANGANÊS'
             });
 var format_MINRIODENQUEL_60 = new ol.format.GeoJSON();
@@ -908,7 +908,7 @@ var lyr_MINRIODENQUEL_60 = new ol.layer.Vector({
                 source:jsonSource_MINRIODENQUEL_60, 
                 style: style_MINRIODENQUEL_60,
                 popuplayertitle: "MINÉRIO DE NÍQUEL",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODENQUEL_60.png" /> MINÉRIO DE NÍQUEL'
             });
 var format_MINRIODEOURO_61 = new ol.format.GeoJSON();
@@ -923,7 +923,7 @@ var lyr_MINRIODEOURO_61 = new ol.layer.Vector({
                 source:jsonSource_MINRIODEOURO_61, 
                 style: style_MINRIODEOURO_61,
                 popuplayertitle: "MINÉRIO DE OURO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODEOURO_61.png" /> MINÉRIO DE OURO'
             });
 var format_MINRIODETITNIO_62 = new ol.format.GeoJSON();
@@ -938,7 +938,7 @@ var lyr_MINRIODETITNIO_62 = new ol.layer.Vector({
                 source:jsonSource_MINRIODETITNIO_62, 
                 style: style_MINRIODETITNIO_62,
                 popuplayertitle: "MINÉRIO DE TITÂNIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MINRIODETITNIO_62.png" /> MINÉRIO DE TITÂNIO'
             });
 var format_NQUEL_63 = new ol.format.GeoJSON();
@@ -953,7 +953,7 @@ var lyr_NQUEL_63 = new ol.layer.Vector({
                 source:jsonSource_NQUEL_63, 
                 style: style_NQUEL_63,
                 popuplayertitle: "NÍQUEL",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/NQUEL_63.png" /> NÍQUEL'
             });
 var format_OPALA_64 = new ol.format.GeoJSON();
@@ -968,7 +968,7 @@ var lyr_OPALA_64 = new ol.layer.Vector({
                 source:jsonSource_OPALA_64, 
                 style: style_OPALA_64,
                 popuplayertitle: "OPALA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/OPALA_64.png" /> OPALA'
             });
 var format_OURO_65 = new ol.format.GeoJSON();
@@ -983,7 +983,7 @@ var lyr_OURO_65 = new ol.layer.Vector({
                 source:jsonSource_OURO_65, 
                 style: style_OURO_65,
                 popuplayertitle: "OURO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/OURO_65.png" /> OURO'
             });
 var format_QUARTZITO_66 = new ol.format.GeoJSON();
@@ -998,7 +998,7 @@ var lyr_QUARTZITO_66 = new ol.layer.Vector({
                 source:jsonSource_QUARTZITO_66, 
                 style: style_QUARTZITO_66,
                 popuplayertitle: "QUARTZITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/QUARTZITO_66.png" /> QUARTZITO'
             });
 var format_QUARTZO_67 = new ol.format.GeoJSON();
@@ -1013,7 +1013,7 @@ var lyr_QUARTZO_67 = new ol.layer.Vector({
                 source:jsonSource_QUARTZO_67, 
                 style: style_QUARTZO_67,
                 popuplayertitle: "QUARTZO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/QUARTZO_67.png" /> QUARTZO'
             });
 var format_RUTILO_68 = new ol.format.GeoJSON();
@@ -1028,7 +1028,7 @@ var lyr_RUTILO_68 = new ol.layer.Vector({
                 source:jsonSource_RUTILO_68, 
                 style: style_RUTILO_68,
                 popuplayertitle: "RUTILO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/RUTILO_68.png" /> RUTILO'
             });
 var format_SAIBRO_69 = new ol.format.GeoJSON();
@@ -1043,7 +1043,7 @@ var lyr_SAIBRO_69 = new ol.layer.Vector({
                 source:jsonSource_SAIBRO_69, 
                 style: style_SAIBRO_69,
                 popuplayertitle: "SAIBRO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SAIBRO_69.png" /> SAIBRO'
             });
 var format_SAISDEMAGNSIO_70 = new ol.format.GeoJSON();
@@ -1058,7 +1058,7 @@ var lyr_SAISDEMAGNSIO_70 = new ol.layer.Vector({
                 source:jsonSource_SAISDEMAGNSIO_70, 
                 style: style_SAISDEMAGNSIO_70,
                 popuplayertitle: "SAIS DE MAGNÉSIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SAISDEMAGNSIO_70.png" /> SAIS DE MAGNÉSIO'
             });
 var format_SAISDEPOTSSIO_71 = new ol.format.GeoJSON();
@@ -1073,7 +1073,7 @@ var lyr_SAISDEPOTSSIO_71 = new ol.layer.Vector({
                 source:jsonSource_SAISDEPOTSSIO_71, 
                 style: style_SAISDEPOTSSIO_71,
                 popuplayertitle: "SAIS DE POTÁSSIO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SAISDEPOTSSIO_71.png" /> SAIS DE POTÁSSIO'
             });
 var format_SEIXOS_72 = new ol.format.GeoJSON();
@@ -1088,7 +1088,7 @@ var lyr_SEIXOS_72 = new ol.layer.Vector({
                 source:jsonSource_SEIXOS_72, 
                 style: style_SEIXOS_72,
                 popuplayertitle: "SEIXOS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SEIXOS_72.png" /> SEIXOS'
             });
 var format_SIENITO_73 = new ol.format.GeoJSON();
@@ -1103,7 +1103,7 @@ var lyr_SIENITO_73 = new ol.layer.Vector({
                 source:jsonSource_SIENITO_73, 
                 style: style_SIENITO_73,
                 popuplayertitle: "SIENITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SIENITO_73.png" /> SIENITO'
             });
 var format_SILTITO_74 = new ol.format.GeoJSON();
@@ -1118,7 +1118,7 @@ var lyr_SILTITO_74 = new ol.layer.Vector({
                 source:jsonSource_SILTITO_74, 
                 style: style_SILTITO_74,
                 popuplayertitle: "SILTITO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SILTITO_74.png" /> SILTITO'
             });
 var format_TALCO_75 = new ol.format.GeoJSON();
@@ -1133,7 +1133,7 @@ var lyr_TALCO_75 = new ol.layer.Vector({
                 source:jsonSource_TALCO_75, 
                 style: style_TALCO_75,
                 popuplayertitle: "TALCO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/TALCO_75.png" /> TALCO'
             });
 var format_TERRASRARAS_76 = new ol.format.GeoJSON();
@@ -1148,7 +1148,7 @@ var lyr_TERRASRARAS_76 = new ol.layer.Vector({
                 source:jsonSource_TERRASRARAS_76, 
                 style: style_TERRASRARAS_76,
                 popuplayertitle: "TERRAS RARAS",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/TERRASRARAS_76.png" /> TERRAS RARAS'
             });
 var format_VERMICULITA_77 = new ol.format.GeoJSON();
@@ -1163,7 +1163,7 @@ var lyr_VERMICULITA_77 = new ol.layer.Vector({
                 source:jsonSource_VERMICULITA_77, 
                 style: style_VERMICULITA_77,
                 popuplayertitle: "VERMICULITA",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/VERMICULITA_77.png" /> VERMICULITA'
             });
 var format_XISTO_78 = new ol.format.GeoJSON();
@@ -1178,7 +1178,7 @@ var lyr_XISTO_78 = new ol.layer.Vector({
                 source:jsonSource_XISTO_78, 
                 style: style_XISTO_78,
                 popuplayertitle: "XISTO",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/XISTO_78.png" /> XISTO'
             });
 var format_FaseRequerimentoderegistrodeextrao_79 = new ol.format.GeoJSON();
@@ -1193,7 +1193,7 @@ var lyr_FaseRequerimentoderegistrodeextrao_79 = new ol.layer.Vector({
                 source:jsonSource_FaseRequerimentoderegistrodeextrao_79, 
                 style: style_FaseRequerimentoderegistrodeextrao_79,
                 popuplayertitle: "Fase - Requerimento de registro de extração",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRequerimentoderegistrodeextrao_79.png" /> Fase - Requerimento de registro de extração'
             });
 var format_FaseRequerimentodepesquisa_80 = new ol.format.GeoJSON();
@@ -1208,7 +1208,7 @@ var lyr_FaseRequerimentodepesquisa_80 = new ol.layer.Vector({
                 source:jsonSource_FaseRequerimentodepesquisa_80, 
                 style: style_FaseRequerimentodepesquisa_80,
                 popuplayertitle: "Fase - Requerimento de pesquisa",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRequerimentodepesquisa_80.png" /> Fase - Requerimento de pesquisa'
             });
 var format_FaseRequerimentodelicenciamento_81 = new ol.format.GeoJSON();
@@ -1223,7 +1223,7 @@ var lyr_FaseRequerimentodelicenciamento_81 = new ol.layer.Vector({
                 source:jsonSource_FaseRequerimentodelicenciamento_81, 
                 style: style_FaseRequerimentodelicenciamento_81,
                 popuplayertitle: "Fase - Requerimento de licenciamento",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRequerimentodelicenciamento_81.png" /> Fase - Requerimento de licenciamento'
             });
 var format_FaseRequerimentodelavragarimpeira_82 = new ol.format.GeoJSON();
@@ -1238,7 +1238,7 @@ var lyr_FaseRequerimentodelavragarimpeira_82 = new ol.layer.Vector({
                 source:jsonSource_FaseRequerimentodelavragarimpeira_82, 
                 style: style_FaseRequerimentodelavragarimpeira_82,
                 popuplayertitle: "Fase - Requerimento de lavra garimpeira",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRequerimentodelavragarimpeira_82.png" /> Fase - Requerimento de lavra garimpeira'
             });
 var format_FaseRequerimentodelavra_83 = new ol.format.GeoJSON();
@@ -1253,7 +1253,7 @@ var lyr_FaseRequerimentodelavra_83 = new ol.layer.Vector({
                 source:jsonSource_FaseRequerimentodelavra_83, 
                 style: style_FaseRequerimentodelavra_83,
                 popuplayertitle: "Fase - Requerimento de lavra",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRequerimentodelavra_83.png" /> Fase - Requerimento de lavra'
             });
 var format_FaseRegistrodeextrao_84 = new ol.format.GeoJSON();
@@ -1268,7 +1268,7 @@ var lyr_FaseRegistrodeextrao_84 = new ol.layer.Vector({
                 source:jsonSource_FaseRegistrodeextrao_84, 
                 style: style_FaseRegistrodeextrao_84,
                 popuplayertitle: "Fase - Registro de extração",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseRegistrodeextrao_84.png" /> Fase - Registro de extração'
             });
 var format_FaseReconhecimentogeolgico_85 = new ol.format.GeoJSON();
@@ -1283,7 +1283,7 @@ var lyr_FaseReconhecimentogeolgico_85 = new ol.layer.Vector({
                 source:jsonSource_FaseReconhecimentogeolgico_85, 
                 style: style_FaseReconhecimentogeolgico_85,
                 popuplayertitle: "Fase - Reconhecimento geológico",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseReconhecimentogeolgico_85.png" /> Fase - Reconhecimento geológico'
             });
 var format_FaseLicenciamento_86 = new ol.format.GeoJSON();
@@ -1298,7 +1298,7 @@ var lyr_FaseLicenciamento_86 = new ol.layer.Vector({
                 source:jsonSource_FaseLicenciamento_86, 
                 style: style_FaseLicenciamento_86,
                 popuplayertitle: "Fase - Licenciamento",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseLicenciamento_86.png" /> Fase - Licenciamento'
             });
 var format_FaseLavragarimpeira_87 = new ol.format.GeoJSON();
@@ -1313,7 +1313,7 @@ var lyr_FaseLavragarimpeira_87 = new ol.layer.Vector({
                 source:jsonSource_FaseLavragarimpeira_87, 
                 style: style_FaseLavragarimpeira_87,
                 popuplayertitle: "Fase - Lavra garimpeira",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseLavragarimpeira_87.png" /> Fase - Lavra garimpeira'
             });
 var format_FaseDisponibilidade_88 = new ol.format.GeoJSON();
@@ -1328,7 +1328,7 @@ var lyr_FaseDisponibilidade_88 = new ol.layer.Vector({
                 source:jsonSource_FaseDisponibilidade_88, 
                 style: style_FaseDisponibilidade_88,
                 popuplayertitle: "Fase - Disponibilidade",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseDisponibilidade_88.png" /> Fase - Disponibilidade'
             });
 var format_FaseDireitoderequereralavra_89 = new ol.format.GeoJSON();
@@ -1343,7 +1343,7 @@ var lyr_FaseDireitoderequereralavra_89 = new ol.layer.Vector({
                 source:jsonSource_FaseDireitoderequereralavra_89, 
                 style: style_FaseDireitoderequereralavra_89,
                 popuplayertitle: "Fase - Direito de requerer a lavra",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseDireitoderequereralavra_89.png" /> Fase - Direito de requerer a lavra'
             });
 var format_FaseConcessodelavra_90 = new ol.format.GeoJSON();
@@ -1358,7 +1358,7 @@ var lyr_FaseConcessodelavra_90 = new ol.layer.Vector({
                 source:jsonSource_FaseConcessodelavra_90, 
                 style: style_FaseConcessodelavra_90,
                 popuplayertitle: "Fase - Concessão de lavra",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseConcessodelavra_90.png" /> Fase - Concessão de lavra'
             });
 var format_FaseAutorizaodepesquisa_91 = new ol.format.GeoJSON();
@@ -1373,7 +1373,7 @@ var lyr_FaseAutorizaodepesquisa_91 = new ol.layer.Vector({
                 source:jsonSource_FaseAutorizaodepesquisa_91, 
                 style: style_FaseAutorizaodepesquisa_91,
                 popuplayertitle: "Fase - Autorização de pesquisa",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseAutorizaodepesquisa_91.png" /> Fase - Autorização de pesquisa'
             });
 var format_FaseAptoparadisponibilidade_92 = new ol.format.GeoJSON();
@@ -1388,7 +1388,7 @@ var lyr_FaseAptoparadisponibilidade_92 = new ol.layer.Vector({
                 source:jsonSource_FaseAptoparadisponibilidade_92, 
                 style: style_FaseAptoparadisponibilidade_92,
                 popuplayertitle: "Fase - Apto para disponibilidade",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/FaseAptoparadisponibilidade_92.png" /> Fase - Apto para disponibilidade'
             });
 
@@ -1582,91 +1582,91 @@ lyr_CorredorEcolgicoConfusesSerradaCapivaraPI_4.set('fieldLabels', {'id': 'no la
 lyr_UnidadesdeConservaoEstadualPI_5.set('fieldLabels', {'id': 'hidden field', 'fid': 'hidden field', 'nome': 'no label', 'sigla': 'hidden field', 'areaHa': 'no label', 'perimetroM': 'hidden field', 'administra': 'hidden field', 'UF': 'hidden field', 'biomaIBGE': 'no label', 'CoordRegio': 'hidden field', 'municipios': 'hidden field', 'anoCriacao': 'hidden field', 'Territorio': 'inline label - visible with data', 'Decreto': 'hidden field', 'COD': 'hidden field', 'Hectares': 'inline label - visible with data', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', });
 lyr_UnidadesdeConservaoFederalPIICMBIO2023_6.set('fieldLabels', {'id': 'hidden field', 'NomeUC': 'no label', 'Cnuc': 'hidden field', 'CriacaoAno': 'hidden field', 'AreaHaAlb': 'no label', 'PerimM': 'hidden field', 'CriacaoAto': 'hidden field', 'EsferaAdm': 'hidden field', 'SiglaCateg': 'hidden field', 'GrupoUC': 'hidden field', 'UFAbrang': 'hidden field', 'BiomaIBGE': 'no label', 'BiomaCRL': 'hidden field', 'GRegional': 'hidden field', 'FusoAbrang': 'hidden field', 'Demarcacao': 'hidden field', 'EscalaUC': 'hidden field', 'NGI': 'hidden field', 'Latitude': 'hidden field', 'Longi': 'hidden field', });
 lyr_ZonadeAmortecimentodasUCsPI3Km_7.set('fieldLabels', {'id': 'hidden field', 'fid': 'hidden field', 'nome': 'no label', 'sigla': 'hidden field', 'areaHa': 'no label', 'administra': 'hidden field', 'SiglaGrupo': 'hidden field', 'UF': 'hidden field', 'biomaIBGE': 'no label', 'biomaCRL': 'hidden field', 'CoordRegio': 'hidden field', 'municipios': 'hidden field', 'anoCriacao': 'hidden field', 'Territorio': 'inline label - visible with data', 'Decreto': 'hidden field', 'Hectares': 'hidden field', 'BUFF_DIST': 'hidden field', 'Latitude': 'hidden field', 'Longitude': 'hidden field', });
-lyr_Processosminerrios_8.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'hidden field', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'hidden field', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'hidden field', 'DSProcesso': 'no label', });
-lyr_GUAMINERALALCBICGUAMINERALALC_9.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GUAMINERALCARBOGAS_10.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GUAMINERAL_11.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GUAPOTVELDEMESA_12.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_AMETISTA_13.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ANFIBOLITO_14.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ARDSIA_15.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_AREIA_16.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ARENITO_17.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ARGILAREFRATRIA_18.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ARGILA_19.set('fieldLabels', {'PROCESSO': 'inline label - always visible', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ARGILITO_20.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ATAPULGITA_21.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_BASALTO_22.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CALCRIOCALCTICO_23.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CALCRIODOLOMTICO_24.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CALCRIO_25.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CALCEDNIA_26.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CARVOMINERAL_27.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CASCALHO_28.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'inline label - always visible', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CASSITERITA_29.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CAULIM_30.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_COBRE_31.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'inline label - always visible', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_COLUMBITA_32.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CONCHASCALCRIAS_33.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CONGLOMERADO_34.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_CROMITA_35.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_DADONOCADASTRADO_36.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_DIABSIO_37.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_DIAMANTEINDUSTRIAL_38.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_DIAMANTE_39.set('fieldLabels', {'PROCESSO': 'inline label - always visible', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FOSFATO_40.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GALENA_41.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GEMA_42.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GIPSITA_43.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GNAISSE_44.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GRAFITA_45.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GRANITO_46.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_GRANULITO_47.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_ILMENITA_48.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_LATERITA_49.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MAGNESITA_50.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MANGANS_51.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MRMORE_52.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODEALUMNIO_53.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODECOBRE_54.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODECROMO_55.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODEFERRO_56.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODELTIO_57.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODEMAGNSIO_58.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODEMANGANS_59.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODENQUEL_60.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODEOURO_61.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_MINRIODETITNIO_62.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_NQUEL_63.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_OPALA_64.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_OURO_65.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_QUARTZITO_66.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_QUARTZO_67.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_RUTILO_68.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SAIBRO_69.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SAISDEMAGNSIO_70.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SAISDEPOTSSIO_71.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SEIXOS_72.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SIENITO_73.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_SILTITO_74.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_TALCO_75.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_TERRASRARAS_76.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_VERMICULITA_77.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_XISTO_78.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'inline label - always visible', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRequerimentoderegistrodeextrao_79.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRequerimentodepesquisa_80.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRequerimentodelicenciamento_81.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRequerimentodelavragarimpeira_82.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRequerimentodelavra_83.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseRegistrodeextrao_84.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseReconhecimentogeolgico_85.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseLicenciamento_86.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseLavragarimpeira_87.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseDisponibilidade_88.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseDireitoderequereralavra_89.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseConcessodelavra_90.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseAutorizaodepesquisa_91.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
-lyr_FaseAptoparadisponibilidade_92.set('fieldLabels', {'PROCESSO': 'no label', 'NUMERO': 'no label', 'ANO': 'no label', 'AREA_HA': 'no label', 'ID': 'no label', 'FASE': 'no label', 'ULT_EVENTO': 'no label', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'no label', 'UF': 'no label', 'DSProcesso': 'no label', });
+lyr_Processosminerrios_8.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'inline label - visible with data', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'no label', 'ULT_EVENTO': 'hidden field', 'NOME': 'no label', 'SUBS': 'no label', 'USO': 'inline label - visible with data', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GUAMINERALALCBICGUAMINERALALC_9.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GUAMINERALCARBOGAS_10.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GUAMINERAL_11.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GUAPOTVELDEMESA_12.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_AMETISTA_13.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ANFIBOLITO_14.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ARDSIA_15.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_AREIA_16.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ARENITO_17.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ARGILAREFRATRIA_18.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ARGILA_19.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ARGILITO_20.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ATAPULGITA_21.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_BASALTO_22.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CALCRIOCALCTICO_23.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CALCRIODOLOMTICO_24.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CALCRIO_25.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CALCEDNIA_26.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CARVOMINERAL_27.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CASCALHO_28.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CASSITERITA_29.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CAULIM_30.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_COBRE_31.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_COLUMBITA_32.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CONCHASCALCRIAS_33.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CONGLOMERADO_34.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_CROMITA_35.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_DADONOCADASTRADO_36.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_DIABSIO_37.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_DIAMANTEINDUSTRIAL_38.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_DIAMANTE_39.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FOSFATO_40.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GALENA_41.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GEMA_42.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GIPSITA_43.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GNAISSE_44.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GRAFITA_45.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GRANITO_46.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_GRANULITO_47.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_ILMENITA_48.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_LATERITA_49.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MAGNESITA_50.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MANGANS_51.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MRMORE_52.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODEALUMNIO_53.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODECOBRE_54.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODECROMO_55.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODEFERRO_56.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODELTIO_57.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODEMAGNSIO_58.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODEMANGANS_59.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODENQUEL_60.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODEOURO_61.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_MINRIODETITNIO_62.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_NQUEL_63.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_OPALA_64.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_OURO_65.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_QUARTZITO_66.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_QUARTZO_67.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_RUTILO_68.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SAIBRO_69.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SAISDEMAGNSIO_70.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SAISDEPOTSSIO_71.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SEIXOS_72.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SIENITO_73.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_SILTITO_74.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_TALCO_75.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_TERRASRARAS_76.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_VERMICULITA_77.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_XISTO_78.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'inline label - visible with data', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'hidden field', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRequerimentoderegistrodeextrao_79.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRequerimentodepesquisa_80.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRequerimentodelicenciamento_81.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRequerimentodelavragarimpeira_82.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRequerimentodelavra_83.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseRegistrodeextrao_84.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseReconhecimentogeolgico_85.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseLicenciamento_86.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseLavragarimpeira_87.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseDisponibilidade_88.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseDireitoderequereralavra_89.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseConcessodelavra_90.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseAutorizaodepesquisa_91.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
+lyr_FaseAptoparadisponibilidade_92.set('fieldLabels', {'PROCESSO': 'inline label - visible with data', 'NUMERO': 'hidden field', 'ANO': 'hidden field', 'AREA_HA': 'inline label - visible with data', 'ID': 'hidden field', 'FASE': 'hidden field', 'ULT_EVENTO': 'hidden field', 'NOME': 'hidden field', 'SUBS': 'inline label - visible with data', 'USO': 'hidden field', 'UF': 'hidden field', 'DSProcesso': 'hidden field', });
 lyr_FaseAptoparadisponibilidade_92.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

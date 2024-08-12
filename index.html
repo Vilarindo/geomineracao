@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +13,23 @@
         <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
         <link rel="stylesheet" href="./resources/qgis2web.css">
         <style>
+       @font-face {
+            font-family: 'Montserrat-Regular';
+            src: url('./webfonts/Montserrat-Regular.ttf') format('truetype');
+        }
         html, body {
             background-color: #ffffff;
+            height: 100%;
+            margin: 0;
+            padding: 0;
         }
         .ol-control > * {
             background-color: #f8f8f8!important;
-            color: #444444!important;
+            color: #034ea2!important;
             border-radius: 0px;
         }
         .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
-            color: #444444!important;
+            color: #034ea2!important;
         }
         .search-layer-input-search {
             background-color: #f8f8f8!important;
@@ -33,28 +40,84 @@
         .ol-control {
             background-color: rgba(255,255,255,.4) !important;
             padding: 2px !important;
-        } 
-        </style>
-
-        <style>
-        html, body, #map {
+        }
+        #map {
             width: 100%;
-            height: 100%;
+            height: calc(100% - 80px); /* Ajuste a altura do mapa */
             padding: 0;
             margin: 0;
         }
+        #top-bar {
+            height: 80px; /* Altura da barra superior */
+            background-color: #007932;
+            display: flex;
+            align-items: center;
+            padding: 0 5px;
+            color: #ffffff;
+            font-size: 24px;
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+        #logo {
+            height: 70px; /* Ajuste conforme necessário */
+            margin-right: 20px;
+        }
+        #side-panel {
+                position: fixed;
+                right: -20%; /* Inicialmente fora da tela */
+                top: 0;
+                width: 20%; /* 1/5 da tela */
+                height: 100%;
+                background-color: #f1f1f1;
+                box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+                transition: right 0.3s ease;
+                z-index: 1000; /* Sobreponha a outros elementos, mas não o conteúdo principal */
+            }
+            #side-panel iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+            #open-panel-btn {
+                position: absolute;
+                right: 10px;
+                top: 40px; /* Alinhado abaixo da top-bar */
+                padding: 10px 20px;
+                background-color: #034ea2;
+                color: white;
+                border: none;
+                font-family: 'Montserrat-Regular', sans-serif;
+                cursor: pointer;
+                z-index: 1001; /* Sobreponha a outros elementos */
+            }
+            #open-panel-btn:hover {
+                background-color: #033a7a;
+            }
         </style>
         <title>Mapa Minerário - SUMER</title>
     </head>
     <body>
+        <div id="top-bar">
+            <img id="logo" src="resources/logo.png" alt="Logo SEPLAN"> <!-- Substitua "path/to/your/logo.png" pelo caminho do seu logo -->
+            Secretaria do Planejamento
+        </div>
+
+        <!-- Botão para abrir a aba lateral -->
+        <button id="open-panel-btn" onclick="toggleSidePanel()">Consultar processo</button>
+
         <div id="map">
             <div id="popup" class="ol-popup">
                 <a href="#" id="popup-closer" class="ol-popup-closer"></a>
                 <div id="popup-content"></div>
             </div>
         </div>
+
+        <!-- Aba lateral -->
+        <div id="side-panel">
+            <iframe src="https://sistemas.anm.gov.br/SCM/Extra/site/admin/dadosProcesso.aspx"></iframe>
+        </div>
+
         <script src="resources/qgis2web_expressions.js"></script>
-<script src="resources/proj4.js"></script>
+        <script src="resources/proj4.js"></script>
         <script>proj4.defs('EPSG:4674','+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs');</script>
         <script src="resources/polyfills.js"></script>
         <script src="./resources/functions.js"></script>
@@ -68,5 +131,15 @@
         <script src="./layers/layers.js" type="text/javascript"></script> 
         <script src="./resources/Autolinker.min.js"></script>
         <script src="./resources/qgis2web.js"></script>
+        <script>
+            function toggleSidePanel() {
+                var sidePanel = document.getElementById("side-panel");
+                if (sidePanel.style.right === "0px") {
+                    sidePanel.style.right = "-20%";
+                } else {
+                    sidePanel.style.right = "0px";
+                }
+            }
+        </script>
     </body>
 </html>
